@@ -5,3 +5,4 @@ var helloServer = http.createServer(function (req, res) {
 })
 helloServer.listen(8001);
 exports.message='server created successfully';
+exports.port='8001';
